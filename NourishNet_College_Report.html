@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NourishNet Project Report</title>
+  <style>
+    body { margin: 0; background: #f2f5f3; color: #202824; font: 16px/1.65 Georgia, serif; }
+    main { max-width: 850px; margin: 30px auto; padding: 55px 70px; background: white; box-shadow: 0 8px 28px #23433222; }
+    h1 { margin-bottom: 4px; color: #176b52; font-size: 38px; }
+    h2 { margin-top: 32px; padding-bottom: 5px; color: #176b52; border-bottom: 2px solid #dcece3; font-size: 25px; }
+    .subtitle { color: #68756e; font-size: 19px; }
+    li { margin: 5px 0; }
+    @media (max-width: 700px) { main { margin: 0; padding: 28px 22px; } h1 { font-size: 30px; } }
+    @media print { body { background: white; } main { margin: 0; padding: 0; box-shadow: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NourishNet: Smart Food Redistribution Platform</h1>
+    <p class="subtitle">Project Report</p>
+    <h2>1. Introduction</h2>
+    <p>NourishNet is a web-based food redistribution platform that connects food donors with NGOs and people in need. Restaurants, hotels, supermarkets, events, and households can donate surplus food through the platform. NGOs can request food and distribute it to communities.</p>
+    <p>The purpose of NourishNet is to reduce food wastage and improve the delivery of surplus food to people who need it. The system uses location, food type, quantity, urgency, and expiry time to recommend suitable NGOs for each donation.</p>
+    <h2>2. Problem Statement</h2>
+    <p>Large amounts of edible food are wasted every day, while many people do not have reliable access to food. Donors and NGOs may also find it difficult to communicate, coordinate transportation, track donations, and distribute food before it expires.</p>
+    <p>NourishNet provides one platform for donation, NGO requests, matching, tracking, inventory management, notifications, and reporting.</p>
+    <h2>3. Objectives</h2>
+    <ul><li>Reduce edible food wastage.</li><li>Connect donors with verified NGOs.</li><li>Match donations with NGOs based on need and location.</li><li>Track donations from submission to distribution.</li><li>Notify users about updates and expiry dates.</li><li>Maintain inventory records.</li><li>Provide dashboards and reports.</li></ul>
+    <h2>4. Users of the System</h2>
+    <p><strong>Donor:</strong> Registers, adds food donations, uploads details and images, and tracks donation status.</p>
+    <p><strong>NGO:</strong> Registers, submits food requests, specifies urgency and quantity, accepts suitable donations, and updates distribution information.</p>
+    <p><strong>Administrator:</strong> Verifies users and NGOs, manages donations and requests, monitors inventory, views reports, and maintains records.</p>
+    <h2>5. Main Modules</h2>
+    <ol><li><strong>User Authentication:</strong> Registration, login, password protection, and role-based access.</li><li><strong>Donation Management:</strong> Adding, editing, tracking, and updating food donations.</li><li><strong>NGO Request Management:</strong> NGOs can submit food requirement requests.</li><li><strong>Smart NGO Recommendation:</strong> Matching by food category, urgency, expiry, quantity, capacity, and location.</li><li><strong>Allocation Management:</strong> Reserving and allocating donations.</li><li><strong>Inventory Management:</strong> Recording available, reserved, allocated, expired, and distributed food.</li><li><strong>Notification System:</strong> Updates and expiry warnings.</li><li><strong>Analytics and Reports:</strong> Donation activity, distribution information, and social impact.</li><li><strong>Audit Logs:</strong> Records of important actions.</li></ol>
+    <h2>6. Technology Used</h2>
+    <p><strong>Frontend:</strong> React, Vite, HTML, CSS, and JavaScript.</p>
+    <p><strong>Backend:</strong> Node.js, Express.js, MongoDB, and Mongoose.</p>
+    <p><strong>Supporting tools:</strong> JSON Web Tokens, bcrypt, Express Validator, Helmet, Cloudinary, Swagger, Jest, Supertest, and Docker.</p>
+    <h2>7. System Workflow</h2>
+    <ol><li>A donor registers and logs in.</li><li>The donor submits surplus food details.</li><li>NGOs submit their food requirements and urgency.</li><li>The system compares donations with NGO requirements.</li><li>NourishNet recommends suitable verified NGOs.</li><li>An NGO accepts the donation and the food is allocated.</li><li>The donation is tracked through pickup, delivery, and distribution.</li><li>Inventory and notifications are updated.</li><li>Administrators monitor the process from the dashboard.</li></ol>
+    <h2>8. Smart Recommendation System</h2>
+    <p>The recommendation system considers food category, NGO demand, urgency, expiry time, quantity, capacity, and distance. This reduces delays and improves the chance that food reaches people before it expires.</p>
+    <h2>9. Advantages</h2>
+    <ul><li>Reduces food wastage.</li><li>Supports communities in need.</li><li>Improves donor-NGO coordination.</li><li>Provides transparent tracking.</li><li>Helps NGOs receive suitable food.</li><li>Provides useful dashboards and reports.</li><li>Encourages sustainable food management.</li></ul>
+    <h2>10. Future Scope</h2>
+    <ul><li>Mobile applications.</li><li>Live GPS tracking.</li><li>Communication between donors and NGOs.</li><li>Improved AI recommendations.</li><li>Integration with food banks and government programs.</li><li>Multi-language support.</li><li>Volunteer and delivery management.</li><li>Detailed environmental impact calculations.</li></ul>
+    <h2>11. Conclusion</h2>
+    <p>NourishNet is a practical web application designed to reduce food wastage and improve food distribution. It brings donors, NGOs, and administrators together on one platform. By combining donation management, smart recommendations, inventory tracking, notifications, and analytics, the project provides an efficient and transparent method for redistributing surplus food.</p>
+    <p>The project demonstrates how web technology can address a real social problem and support sustainable community development.</p>
+  </main>
+</body>
+</html>

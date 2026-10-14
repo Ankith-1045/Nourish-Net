@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#000000" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 280 250 C 350 140 450 110 500 110 C 550 110 650 140 720 250" stroke-width="2" stroke-dasharray="6 6" opacity="0.8" />
+    <path d="M 450 150 L 500 115 L 550 150 L 550 190 L 450 190 Z" stroke-width="2.5" />
+    <rect x="320" y="210" width="360" height="230" rx="16" stroke-width="4" />
+    <path d="M 460 440 L 440 480 L 560 480 L 540 440" stroke-width="3" />
+    <text x="350" y="248" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" letter-spacing="2" stroke="none">INVENTORY</text>
+    <circle cx="240" cy="300" r="45" stroke-width="3" />
+    <circle cx="760" cy="300" r="45" stroke-width="3" />
+    <text x="500" y="565" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" letter-spacing="3" text-anchor="middle" stroke="none">SMART INVENTORY TRACKING</text>
+    <text x="500" y="590" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" letter-spacing="5" text-anchor="middle" stroke="none" opacity="0.8">TRACK. MANAGE. DISTRIBUTE.</text>
+  </g>
+</svg>

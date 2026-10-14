@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#000000" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Glowing Concentric Target Circles at bottom -->
+    <ellipse cx="500" cy="460" rx="280" ry="60" stroke-width="1.5" opacity="0.3" stroke-dasharray="4 4" />
+    <ellipse cx="500" cy="460" rx="220" ry="45" stroke-width="1.5" opacity="0.4" />
+    <ellipse cx="500" cy="460" rx="160" ry="30" stroke-width="2" opacity="0.6" />
+
+    <!-- Connecting Dotted Arcs -->
+    <path d="M 280 300 C 350 180 430 160 500 160 C 570 160 650 180 720 300" stroke-width="2" stroke-dasharray="6 6" opacity="0.8" />
+    <path d="M 310 320 L 370 320" stroke-width="2.5" marker-end="url(#arrow)" />
+    <path d="M 630 320 L 690 320" stroke-width="2.5" marker-end="url(#arrow)" />
+    <path d="M 500 200 L 500 250" stroke-width="2" stroke-dasharray="4 4" opacity="0.8" />
+    <path d="M 500 400 L 500 440" stroke-width="2" stroke-dasharray="4 4" opacity="0.8" />
+
+    <!-- Left Circle: DONOR -->
+    <circle cx="280" cy="300" r="55" stroke-width="3" />
+    <circle cx="280" cy="285" r="14" stroke-width="2.5" />
+    <path d="M 255 320 C 255 305 265 300 280 300 C 295 300 305 305 305 320" stroke-width="2.5" />
+    <text x="280" y="388" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" letter-spacing="3" text-anchor="middle" stroke="none">DONOR</text>
+
+    <!-- Top Circle: AI -->
+    <circle cx="500" cy="150" r="45" stroke-width="3" />
+    <!-- AI chip nodes -->
+    <path d="M 500 95 L 500 105 M 500 195 L 500 205 M 445 150 L 455 150 M 545 150 L 555 150" stroke-width="3" />
+    <circle cx="500" cy="92" r="3" fill="#ffffff" />
+    <circle cx="500" cy="208" r="3" fill="#ffffff" />
+    <circle cx="442" cy="150" r="3" fill="#ffffff" />
+    <circle cx="558" cy="150" r="3" fill="#ffffff" />
+    <path d="M 465 125 L 472 130 M 535 125 L 528 130 M 465 175 L 472 170 M 535 175 L 528 170" stroke-width="2.5" />
+    <text x="500" y="159" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="26" letter-spacing="2" text-anchor="middle" stroke="none">AI</text>
+
+    <!-- Center: FOOD BOWL -->
+    <path d="M 380 340 C 380 400 420 420 500 420 C 580 420 620 400 620 340 Z" stroke-width="4" />
+    <!-- Food Items in Bowl -->
+    <!-- Bread -->
+    <path d="M 410 325 C 410 280 445 280 455 330 Z" stroke-width="3" />
+    <path d="M 425 295 L 435 315 M 435 290 L 445 310" stroke-width="2" />
+    <!-- Apple -->
+    <circle cx="495" cy="315" r="20" stroke-width="3" />
+    <path d="M 495 295 Q 505 285 508 280" stroke-width="2" />
+    <!-- Salad Leaves -->
+    <path d="M 525 330 Q 545 260 575 285 Q 585 310 545 335 Z" stroke-width="3" />
+    <path d="M 545 300 Q 560 285 565 275" stroke-width="2" />
+
+    <!-- Right Circle: NGO -->
+    <circle cx="720" cy="300" r="55" stroke-width="3" />
+    <!-- 3 People icon -->
+    <circle cx="720" cy="282" r="10" stroke-width="2.5" />
+    <path d="M 704 310 C 704 298 710 295 720 295 C 730 295 736 298 736 310" stroke-width="2" />
+    <circle cx="698" cy="288" r="8" stroke-width="2" />
+    <path d="M 686 310 C 686 300 692 298 698 298 C 704 298 708 300 708 310" stroke-width="2" />
+    <circle cx="742" cy="288" r="8" stroke-width="2" />
+    <path d="M 732 310 C 732 300 736 298 742 298 C 748 298 754 300 754 310" stroke-width="2" />
+    <text x="720" y="388" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" letter-spacing="3" text-anchor="middle" stroke="none">NGO</text>
+
+    <!-- Bottom Circle: SMART MATCH -->
+    <circle cx="500" cy="480" r="28" stroke-width="3" />
+    <path d="M 488 480 L 496 488 L 514 470" stroke-width="3.5" />
+    <text x="500" y="540" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" letter-spacing="3" text-anchor="middle" stroke="none">SMART MATCH</text>
+
+  </g>
+</svg>

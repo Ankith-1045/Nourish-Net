@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <g fill="#ffffff" text-anchor="middle">
+    <!-- Circle Outer Frame -->
+    <path d="M 150 20 C 198 20 226 55 226 100 C 226 142 195 158 150 158 C 105 158 74 142 74 100 C 74 55 102 20 150 20 Z" fill="none" stroke="#ffffff" stroke-width="5" />
+    <!-- Three People Heads -->
+    <circle cx="120" cy="58" r="9" />
+    <circle cx="150" cy="46" r="11" />
+    <circle cx="180" cy="58" r="9" />
+    <!-- Bowl -->
+    <path d="M 100 102 C 100 128 122 136 150 136 C 178 136 200 128 200 102 Z" />
+    <!-- Food in bowl -->
+    <circle cx="130" cy="94" r="7" />
+    <circle cx="150" cy="88" r="9" />
+    <path d="M 164 94 C 168 84 178 84 182 94 Z" />
+    <!-- Hands holding bottom -->
+    <path d="M 80 110 C 98 138 126 148 150 148 C 174 148 202 138 220 110 C 205 132 178 140 150 140 C 122 140 95 132 80 110 Z" />
+    <!-- Typography -->
+    <text x="150" y="178" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="19" letter-spacing="2">COMMUNITY HARVEST</text>
+    <text x="150" y="200" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="10" letter-spacing="3" opacity="0.85">— CONNECT. SHARE. CARE. —</text>
+  </g>
+</svg>

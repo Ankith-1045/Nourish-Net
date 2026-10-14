@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#000000" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Top Arc Connections -->
+    <path d="M 300 120 C 370 70 430 60 500 60 C 570 60 630 70 700 120" stroke-width="2" stroke-dasharray="5 5" opacity="0.6" />
+
+    <!-- Top Circles: DONOR, NGO, ADMIN -->
+    <!-- DONOR -->
+    <circle cx="300" cy="120" r="42" stroke-width="3" />
+    <circle cx="300" cy="110" r="11" stroke-width="2" />
+    <path d="M 282 135 C 282 125 290 122 300 122 C 310 122 318 125 318 135" stroke-width="2" />
+    <path d="M 315 132 C 313 128 307 128 305 132 C 303 135 315 142 315 142 C 315 142 327 135 325 132 C 323 128 317 128 315 132 Z" fill="#ffffff" />
+    <text x="300" y="185" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" letter-spacing="2" text-anchor="middle" stroke="none">DONOR</text>
+
+    <!-- NGO -->
+    <circle cx="500" cy="90" r="46" stroke-width="3" />
+    <circle cx="500" cy="78" r="9" stroke-width="2" />
+    <path d="M 488 100 C 488 90 493 88 500 88 C 507 88 512 90 512 100" stroke-width="2" />
+    <circle cx="482" cy="83" r="7" stroke-width="1.5" />
+    <path d="M 473 100 C 473 93 477 91 482 91 C 487 91 491 93 491 100" stroke-width="1.5" />
+    <circle cx="518" cy="83" r="7" stroke-width="1.5" />
+    <path d="M 509 100 C 509 93 513 91 518 91 C 523 91 527 93 527 100" stroke-width="1.5" />
+    <text x="500" y="155" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" letter-spacing="2" text-anchor="middle" stroke="none">NGO</text>
+
+    <!-- ADMIN -->
+    <circle cx="700" cy="120" r="42" stroke-width="3" />
+    <circle cx="700" cy="110" r="11" stroke-width="2" />
+    <path d="M 682 135 C 682 125 690 122 700 122 C 710 122 718 125 718 135" stroke-width="2" />
+    <circle cx="718" cy="132" r="6" stroke-width="1.5" />
+    <path d="M 718 123 L 718 141 M 709 132 L 727 132" stroke-width="1.5" />
+    <text x="700" y="185" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" letter-spacing="2" text-anchor="middle" stroke="none">ADMIN</text>
+
+    <!-- Center Laptop Screen -->
+    <rect x="270" y="220" width="460" height="260" rx="12" stroke-width="4" />
+    <path d="M 230 480 L 770 480 Q 770 500 750 500 L 250 500 Q 230 500 230 480 Z" stroke-width="3" />
+
+    <!-- Laptop Dashboard Screen UI -->
+    <!-- Header -->
+    <text x="350" y="255" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="13" letter-spacing="2" stroke="none">DASHBOARD</text>
+    <!-- Bell & Menu -->
+    <path d="M 670 248 L 675 255 L 665 255 Z M 670 244 A 2 2 0 0 1 670 248" stroke-width="1.5" />
+    <line x1="690" y1="247" x2="705" y2="247" stroke-width="2" />
+    <line x1="690" y1="252" x2="705" y2="252" stroke-width="2" />
+    <line x1="690" y1="257" x2="705" y2="257" stroke-width="2" />
+    <line x1="290" y1="268" x2="710" y2="268" stroke-width="1.5" opacity="0.3" />
+
+    <!-- Left Sidebar -->
+    <rect x="290" y="280" width="22" height="22" rx="3" stroke-width="1.5" />
+    <path d="M 296 295 L 301 286 L 306 295 Z" stroke-width="1.5" />
+    <rect x="290" y="310" width="22" height="22" rx="3" stroke-width="1.5" />
+    <rect x="296" y="318" width="10" height="10" stroke-width="1.5" />
+    <rect x="290" y="340" width="22" height="22" rx="3" stroke-width="1.5" />
+    <path d="M 296 351 L 301 346 L 306 351" stroke-width="1.5" />
+    <rect x="290" y="370" width="22" height="22" rx="3" stroke-width="1.5" />
+    <circle cx="301" cy="378" r="4" stroke-width="1.5" />
+    <rect x="290" y="400" width="22" height="22" rx="3" stroke-width="1.5" />
+    <line x1="295" y1="416" x2="295" y2="408" stroke-width="2" />
+    <line x1="301" y1="416" x2="301" y2="404" stroke-width="2" />
+    <line x1="307" y1="416" x2="307" y2="410" stroke-width="2" />
+
+    <line x1="325" y1="275" x2="325" y2="460" stroke-width="1.5" opacity="0.3" />
+
+    <!-- 4 Metric Cards -->
+    <rect x="340" y="285" width="82" height="70" rx="6" stroke-width="2" />
+    <rect x="371" y="295" width="20" height="20" stroke-width="1.5" />
+    <text x="381" y="333" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" text-anchor="middle" stroke="none">120</text>
+    <text x="381" y="347" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8" text-anchor="middle" opacity="0.8" stroke="none">Donations</text>
+
+    <rect x="432" y="285" width="82" height="70" rx="6" stroke-width="2" />
+    <circle cx="473" cy="305" r="8" stroke-width="1.5" />
+    <text x="473" y="333" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" text-anchor="middle" stroke="none">85</text>
+    <text x="473" y="347" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8" text-anchor="middle" opacity="0.8" stroke="none">Food Requests</text>
+
+    <rect x="524" y="285" width="82" height="70" rx="6" stroke-width="2" />
+    <rect x="555" y="298" width="20" height="12" stroke-width="1.5" />
+    <circle cx="560" cy="312" r="3" stroke-width="1.5" />
+    <circle cx="570" cy="312" r="3" stroke-width="1.5" />
+    <text x="565" y="333" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" text-anchor="middle" stroke="none">45</text>
+    <text x="565" y="347" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8" text-anchor="middle" opacity="0.8" stroke="none">Deliveries</text>
+
+    <rect x="616" y="285" width="82" height="70" rx="6" stroke-width="2" />
+    <circle cx="657" cy="302" r="6" stroke-width="1.5" />
+    <path d="M 648 314 C 648 308 652 306 657 306 C 662 306 666 308 666 314" stroke-width="1.5" />
+    <text x="657" y="333" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" text-anchor="middle" stroke="none">60</text>
+    <text x="657" y="347" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8" text-anchor="middle" opacity="0.8" stroke="none">Beneficiaries</text>
+
+    <!-- Lower Dashboard Charts -->
+    <rect x="340" y="370" width="174" height="85" rx="6" stroke-width="2" />
+    <text x="350" y="386" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="9" letter-spacing="1" stroke="none">FOOD DISTRIBUTION</text>
+    <path d="M 350 435 L 380 420 L 410 428 L 440 400 L 470 415 L 495 390" stroke-width="2.5" />
+    <circle cx="495" cy="390" r="3" fill="#ffffff" />
+
+    <rect x="524" y="370" width="174" height="85" rx="6" stroke-width="2" />
+    <text x="534" y="386" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="9" letter-spacing="1" stroke="none">RECENT ACTIVITY</text>
+    <circle cx="538" cy="402" r="3" stroke-width="1.5" />
+    <line x1="550" y1="402" x2="680" y2="402" stroke-width="2" />
+    <circle cx="538" cy="418" r="3" stroke-width="1.5" />
+    <line x1="550" y1="418" x2="680" y2="418" stroke-width="2" />
+    <circle cx="538" cy="434" r="3" stroke-width="1.5" />
+    <line x1="550" y1="434" x2="680" y2="434" stroke-width="2" />
+
+    <!-- Left Outer Circle: REQUESTS & APPROVALS -->
+    <circle cx="170" cy="370" r="40" stroke-width="3" />
+    <rect x="152" y="352" width="36" height="40" rx="3" stroke-width="2" />
+    <line x1="160" y1="362" x2="178" y2="362" stroke-width="2" />
+    <line x1="160" y1="370" x2="178" y2="370" stroke-width="2" />
+    <line x1="160" y1="378" x2="172" y2="378" stroke-width="2" />
+    <circle cx="188" cy="385" r="10" stroke-width="1.5" fill="#000000" />
+    <path d="M 183 385 L 187 389 L 193 382" stroke-width="2" />
+    <text x="170" y="430" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5" text-anchor="middle" stroke="none">REQUESTS &amp;</text>
+    <text x="170" y="446" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5" text-anchor="middle" stroke="none">APPROVALS</text>
+
+    <!-- Right Outer Circle: ANALYTICS & REPORTS -->
+    <circle cx="830" cy="370" r="40" stroke-width="3" />
+    <rect x="810" y="360" width="10" height="28" stroke-width="2" />
+    <rect x="825" y="348" width="10" height="40" stroke-width="2" />
+    <rect x="840" y="354" width="10" height="34" stroke-width="2" />
+    <text x="830" y="430" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5" text-anchor="middle" stroke="none">ANALYTICS &amp;</text>
+    <text x="830" y="446" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5" text-anchor="middle" stroke="none">REPORTS</text>
+
+    <!-- Outer Arc Dotted Connections -->
+    <path d="M 170 325 C 170 230 250 200 270 220" stroke-width="2" stroke-dasharray="5 5" opacity="0.6" />
+    <path d="M 830 325 C 830 230 750 200 730 220" stroke-width="2" stroke-dasharray="5 5" opacity="0.6" />
+    <path d="M 170 455 C 220 530 350 550 480 550" stroke-width="2" stroke-dasharray="5 5" opacity="0.6" />
+    <path d="M 830 455 C 780 530 650 550 520 550" stroke-width="2" stroke-dasharray="5 5" opacity="0.6" />
+
+    <!-- Bottom Shield Circle: SECURE & RELIABLE -->
+    <circle cx="500" cy="535" r="32" stroke-width="3" />
+    <path d="M 488 522 C 488 522 500 518 500 518 C 500 518 512 522 512 522 C 512 538 500 548 500 548 C 500 548 488 538 488 522 Z" stroke-width="2" />
+    <path d="M 495 532 L 499 536 L 506 528" stroke-width="2" />
+    <text x="500" y="585" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="2" text-anchor="middle" stroke="none">SECURE &amp; RELIABLE</text>
+
+    <!-- Footer Title -->
+    <text x="500" y="618" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" letter-spacing="3" text-anchor="middle" stroke="none">UNIFIED MANAGEMENT PORTAL</text>
+
+  </g>
+</svg>
