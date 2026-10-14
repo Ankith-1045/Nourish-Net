@@ -2,6 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+const dns = require('dns');
 const cors = require('cors');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
@@ -24,6 +25,10 @@ const startServer = async () => {
     const memoryServer = await MongoMemoryServer.create();
     mongoUri = memoryServer.getUri();
     console.log('No MongoDB URI provided. Using in-memory MongoDB fallback.');
+  }
+
+  if (mongoUri.startsWith('mongodb+srv://')) {
+    dns.setServers(['1.1.1.1', '8.8.8.8']);
   }
 
   await mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
